@@ -2,7 +2,7 @@
 ## Object collision detection using a QuadTree for maximum efficiency
 
 ### Reasoning
-Collision detection gets increasingly less efficient that more objects need to be accounted for. Checking every object against every other object seems counter intuitive, even when there are very few objects to begin with. 
+Collision detection gets increasingly less efficient the more objects need to be accounted for. Checking every object against every other object seems counter intuitive, even when there are very few objects to begin with. 
 
 ### The Solution
 A more intuitive approach to collision detection is one to only check for collisions against objects which are nearby.
